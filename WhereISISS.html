@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>whereisISS?</title>
+
+    <link rel="stylesheet" href="/Users/Utkarsh Chhadva/WhereISISS.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="crossorigin=""></script>
+
+    </head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Inter, sans-serif;
+      }
+
+      /* Media query for smaller screens */
+      @media screen and (max-width: 600px) {
+        /* Style for the navigation bar links */
+        .topnav a {
+          float: none;
+          display: inline-block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top navigation bar -->
+    <div class="topnav">
+      <a href="/Users/Utkarsh Chhadva/WhereISISS.html">Where is ISS?</a>
+      <a href="/Users/Utkarsh Chhadva/discoverbrewery.html">discoverbrewery</a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+      <h1>Where is the International Space Station?</h1>
+      <p>The International Space Station (ISS) is orbiting 248 miles/400 kilometers above our heads. 
+        <br>
+         It travels at about 17,500 miles/28,000 kilometers per hour. At this speed, the ISS orbits the Earth every 90 minutes. 
+        <br>
+        <br>
+        Refresh to see if it is above your head or not!</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="map"></div>
+    <br>
+    <br>
+    <div class="latitude">
+      <label>Current Latitude: </label><span id="lat"></span>
+    </div>
+    <br>
+    <div class="longitude">
+      <label>Current Longitude: </label><span id="lon"></span>
+    </div>
+    <br>
+    <br>
+    <button id="refreshButton">Refresh</button>
+
+<section class="colored-section">
+  <p>Made using the following resources:</p>
+  <a href="https://wheretheiss.at/w/developer" target="_blank">Where the ISS at?</a>
+  <br>
+  <a href="https://www.openstreetmap.org/#map=2/15.3/77.7" target="_blank">Open Street Map</a>
+  <br>
+  <a href="https://leafletjs.com/" target="_blank">Leaflet.js</a>
+  <br>
+</section>
+    
+    <script src="/Users/Utkarsh Chhadva/WhereISISS.js"></script>
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+
+   </body>     
+</html>

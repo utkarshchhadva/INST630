@@ -1,0 +1,112 @@
+/* Style for the top navigation bar */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  /* Style for the navigation bar links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    text-size-adjust: 8px;
+    padding: 10px 12px;
+    text-decoration: none;
+    z-index: 100;
+  }
+
+  /* Style for the navigation bar links when hovered */
+  .topnav a:hover {
+    background-color: black;
+    color: white;
+    z-index: 100;
+  }
+
+  /* Style for the page content */
+  .content {
+    margin-top: 60px; 
+    text-align: center;
+    color: #6b6b6b;
+    overflow: hidden;
+  }
+  
+  .latitude {
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+  }
+
+  .longitude {
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+  }
+
+   /* Style for section */
+  .colored-section {
+    margin-top: 60px; 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 175px;
+  }
+
+  /* Style for the links */
+  a {
+    color: #a3a3a3;
+  }
+
+
+  /* Style for the background gradient */
+  html {
+height: 100%;
+  }
+  body {
+    background-image: linear-gradient(to bottom, #ffffff, #000000);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* Style for map */
+  #map {
+    width: 70vw;
+    height: 60vh;
+    position: center;
+    align-content: center;
+    border-radius: 0%;
+    border-color: #8B8000;
+    border-width: 13px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+  }
+
+  /* Button */
+  #refreshButton {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+
+  /* Button hover effect */
+  #refreshButton:hover {
+    background-color: #ffffff;
+    color: #94938f;
+  }

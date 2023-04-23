@@ -1,0 +1,141 @@
+/* Style for the top navigation bar */
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  /* Style for the navigation bar links */
+  .topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    text-size-adjust: 8px;
+    padding: 10px 12px;
+    text-decoration: none;
+    z-index: 100;
+  }
+
+  /* Style for the navigation bar links when hovered */
+  .topnav a:hover {
+    background-color: #F1E25D;
+    z-index: 100;
+  }
+
+  /* Style for the page content */
+  .content {
+    margin-top: 60px; /* Offset the height of the top navigation bar */
+    text-align: center;
+    color: #8B8000;
+    overflow: hidden;
+  }
+  
+   /* Style for section */
+  .colored-section {
+    margin-top: 60px; 
+    text-align: center;
+    color: #8B8000;
+    height: 175px;
+  }
+
+  /* Style for the background gradient */
+  html {
+height: 100%;
+  }
+  body {
+    background-image: linear-gradient(to bottom, #ffffff, #F1E25D);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+    /* Style for the links */
+    a {
+      color: #888888;
+    }
+
+  /* Style for map */
+  #map {
+    width: 60vw;
+    height: 60vh;
+    position: centre;
+    align-content: center;
+    border-radius: 0%;
+    border-color: #8B8000;
+    border-width: 30px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+  }
+  
+.centered-container {
+    margin: 0 auto; 
+  text-align: center; 
+    
+  }
+
+label {
+  display: block; 
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px; 
+  margin-bottom: 10px; 
+}
+
+button {
+  padding: 10px 16px; 
+  background-color: #8B8000;
+  color: #fff; 
+  border: none; 
+  cursor: pointer; 
+  text-align: center;
+  border-radius: 7px
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #8B8000;
+  text-align: center;
+}
+
+.centered-container2 {
+  margin: 0 auto; 
+text-align: center;  
+}
+
+ul#breweriesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul#breweriesList li {
+  padding: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+ul#breweriesList li:last-child {
+  border-bottom: none;
+}
+
+ul#breweriesList li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul#breweriesList li a:hover {
+  color: #0056b3;
+}
+
+
