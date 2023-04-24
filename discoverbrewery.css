@@ -137,4 +137,14 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
-
+.beer-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://brewerybuddy.netlify.app/img/beer_bg.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
