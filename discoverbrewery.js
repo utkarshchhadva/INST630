@@ -8,12 +8,12 @@ var map = L.map('map', mapOptions);
 // Add a tile layer to the map
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {}).addTo(map);
 
-const markerGroup = L.layerGroup().addTo(map); // Create a layer group for markers
-let highlightedMarker = null; // Variable to store the currently highlighted marker
+const markerGroup = L.layerGroup().addTo(map);
+let highlightedMarker = null; 
 
 async function searchBreweries() {
     const stateInput = document.getElementById('stateInput').value; // Get user input
-    const apiUrl = `https://api.openbrewerydb.org/v1/breweries?by_state=${stateInput}`; // API URL with state query parameter
+    const apiUrl = `https://api.openbrewerydb.org/v1/breweries?by_state=${stateInput}`;
 
   // Create a custom beer icon
   var beerIcon = L.icon({
