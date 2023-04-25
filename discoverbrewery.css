@@ -97,7 +97,7 @@ input[type="text"] {
 
 button {
   padding: 10px 16px; 
-  background-color: #f28e1c;
+  background-color: #F6C101;
   color: #fff; 
   border: none; 
   cursor: pointer; 
@@ -107,7 +107,7 @@ button {
 
 button:hover {
   background-color: #ffffff;
-  color: #f28e1c;
+  color: #F6C101;
   text-align: center;
 }
 
