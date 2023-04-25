@@ -61,15 +61,18 @@
 
 
   /* Style for the background gradient */
-  html {
+html {
 height: 100%;
   }
   body {
-    background-image: linear-gradient(to bottom, #ffffff, #000000);
-    height: 100%;
+    height: 90%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: linear-gradient (to bottom, #ffffff, #000000);
+    background-image: url('https://assets.iflscience.com/assets/articleNo/62865/aImg/54425/1646658816-the-iss-a-triumph-of-international-cooperation-so-far-o-meta.png');
+    background-size: cover;
+    background-position: center center;
   }
 
   /* Style for map */
