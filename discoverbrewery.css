@@ -148,25 +148,21 @@ ul#breweriesList li a:hover {
       width: 40px; /* Set the width of the bubbles */
       height: 40px; /* Set the height of the bubbles */
       border-radius: 50%; /* Make the bubbles circular */
-      animation: floatBubble 5s infinite; /* Add animation for floating effect */
       z-index: -1; /* Position the bubbles behind other elements */
       top: 0;
       left: 0;
       width: 100vw;
       height: 100vh;
       pointer-events: none;
+      animation: bubble-animation 6s linear infinite;
     }
 
-/* Animation for floating effect */
-    @keyframes floatBubble {
-      0% {
-        transform: translateY(0);
-      }
-      100% {
-        transform: translateY(-20px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
+@keyframes bubble-animation {
+  0% {
+    bottom: -50px; /* Change this value to determine how far below the screen the bubbles start */
+  }
+  100% {
+    bottom: 100vh; /* Change this value to determine how far above the screen the bubbles move */
+  }
+}
 
