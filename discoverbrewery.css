@@ -144,7 +144,7 @@ ul#breweriesList li a:hover {
 .bubble-container {
       position: absolute;
       background-color: #CBEFFF; /* Set the color of the bubbles */
-      opacity: 0.1;
+      opacity: 0.2;
       width: 40px; /* Set the width of the bubbles */
       height: 40px; /* Set the height of the bubbles */
       border-radius: 50%; /* Make the bubbles circular */
