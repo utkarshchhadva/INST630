@@ -297,29 +297,4 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
-.bubble{
-      position: absolute;
-      background-color: #CBEFFF; /* Set the color of the bubbles */
-      opacity: 0.2;
-      width: 40px; /* Set the width of the bubbles */
-      height: 40px; /* Set the height of the bubbles */
-      border-radius: 50%; /* Make the bubbles circular */
-      z-index: -1; /* Position the bubbles behind other elements */
-      pointer-events: none;
-      animation: floatBubble 5s infinite;
-    }
-
-/* Animation for floating effect */
-    @keyframes floatBubble {
-      0% {
-        transform: translateY(0);
-      }
-      50% {
-        transform: translateY(-20px);
-      }
-      100% {
-        transform: translateY(0);
-      }
-    }
-
 
