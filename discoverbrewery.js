@@ -114,3 +114,21 @@ function highlightMarker(index) {
   }
   map.setView([37.0902, -95.7129], 4);
   }
+
+// Function to create bubbles
+const container = document.querySelector('.bubble-container');
+
+function createBubble() {
+  const bubble = document.createElement('div');
+  bubble.classList.add('bubble');
+  bubble.style.left = `${Math.random() * 100}vw`; // Random horizontal position
+  container.appendChild(bubble);
+
+  setTimeout(() => {
+    bubble.remove(); // Remove the bubble after a certain time
+  }, 5000); // 5 seconds
+
+  setTimeout(createBubble, Math.random() * 3000); // Create a new bubble after a random time interval
+}
+
+createBubble(); // Start creating bubbles
