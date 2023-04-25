@@ -50,10 +50,10 @@ height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('https://img.freepik.com/premium-photo/pouring-beer-with-bubble-froth-glass-background_53089-87.jpg');
+    background-image: linear-gradient (to bottom, #ffffff, #F1E25D);
+    background-image: url('https://www.pngkit.com/png/full/10-105524_beer-froth-beer-image-png.png');
     background-size: cover;
     background-position: center center;
-    opacity: 0.7;
   }
 
     /* Style for the links */
