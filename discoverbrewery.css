@@ -46,11 +46,14 @@
 height: 100%;
   }
   body {
-    background-image: linear-gradient(to bottom, #ffffff, #F1E25D);
     height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20191205/pngtree-beer-bubbles-background-yellow-summer-cool-image_324069.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-color: #f9d770;
   }
 
     /* Style for the links */
