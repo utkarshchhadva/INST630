@@ -141,14 +141,13 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
-.bubble-container {
-  position: fixed; /* or absolute */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* Additional styles */
-  background-color: #00ffffff;
-  opacity: 0.5;
-}
+.bubble {
+      position: absolute;
+      background-color: #F0F8FF; /* Set the color of the bubbles */
+      width: 20px; /* Set the width of the bubbles */
+      height: 20px; /* Set the height of the bubbles */
+      border-radius: 50%; /* Make the bubbles circular */
+      animation: floatBubble 5s infinite; /* Add animation for floating effect */
+      z-index: -1; /* Position the bubbles behind other elements */
+    }
 
