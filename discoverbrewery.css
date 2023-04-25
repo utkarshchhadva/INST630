@@ -50,10 +50,10 @@ height: 100%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20191205/pngtree-beer-bubbles-background-yellow-summer-cool-image_324069.jpg');
+    background-image: url('https://img.freepik.com/premium-photo/pouring-beer-with-bubble-froth-glass-background_53089-87.jpg');
     background-size: cover;
     background-position: center center;
-    background-color: #f9d770;
+    opacity: 0.7;
   }
 
     /* Style for the links */
