@@ -55,6 +55,8 @@ height: 100%;
     background-image: url('https://images.squarespace-cdn.com/content/v1/55cbb350e4b00bc2ab5e9e5c/1580489356794-P2K4P2HYVHF1ZPURVVJU/beer_flow01.jpg?format=2500w');
     background-size: cover;
     background-position: center center;
+    overflow: hidden;
+    position: relative;
   }
 
     /* Style for the links */
