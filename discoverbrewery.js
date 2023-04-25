@@ -65,13 +65,13 @@ async function searchBreweries() {
     });
 
     document.getElementById('breweriesList').innerHTML = breweriesList;
-  
+
   } catch (error) {
     console.error(error);
   }
 }
 
-/ Function to highlight marker on the map when clicking on a list item
+// Function to highlight marker on the map when clicking on a list item
 function highlightMarker(index) {
   if (highlightedMarker) {
     highlightedMarker.setIcon(beerIcon); // Reset previously highlighted marker
