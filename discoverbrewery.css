@@ -29,7 +29,7 @@
   .content {
     margin-top: 60px; /* Offset the height of the top navigation bar */
     text-align: center;
-    color: #000000;
+    color: #8B8000;
     overflow: hidden;
   }
   
@@ -46,12 +46,12 @@
 height: 100%;
   }
   body {
-    height: 100%;
+    height: 90%;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: linear-gradient (to bottom, #ffffff, #F1E25D);
-    background-image: url('https://static8.depositphotos.com/1241729/846/i/600/depositphotos_8469955-stock-photo-bier-schaum-alkohol-gaststtte-gold.jpg');
+    background-image: url('https://us.123rf.com/450wm/rclassenlayouts/rclassenlayouts1112/rclassenlayouts111202201/11909858-golden-beer-foam-wave.jpg?ver=6');
     background-size: cover;
     background-position: center center;
   }
