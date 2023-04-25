@@ -140,11 +140,6 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
-body {
-  margin: 0;
-  overflow: hidden;
-}
-
 .bubble-container {
   position: absolute;
   top: 0;
