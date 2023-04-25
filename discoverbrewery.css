@@ -140,12 +140,18 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
 .bubble-container {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  pointer-events: none; /* prevent bubbles from blocking interactions with other elements */
 }
 
 .bubble {
@@ -153,20 +159,17 @@ ul#breweriesList li a:hover {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #00FFFFFF;
+  background-color: 00FFFFFF; 
   opacity: 0.7;
   animation: floatBubble 5s infinite ease-in-out;
+  pointer-events: auto; /* re-enable pointer events for bubbles so they can be clicked */
 }
 
 @keyframes floatBubble {
   0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-100px);
+    transform: translateY(100vh) translateX(calc(100vw * var(--translate-x)));
   }
   100% {
-    transform: translateY(0);
+    transform: translateY(-100vh) translateX(calc(100vw * var(--translate-x)));
   }
 }
-
