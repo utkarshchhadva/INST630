@@ -141,33 +141,35 @@ ul#breweriesList li a:hover {
   color: #0056b3;
 }
 
-.bubble-container {
-  position: absolute;
+.beer-container {
+  position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none; /* prevent bubbles from blocking interactions with other elements */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
 }
 
-.bubble {
+.beer-emoji {
   position: absolute;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-  background-color: #00fffff; /* or any color you prefer */
-  opacity: 0.7;
-  animation: floatBubble 5s infinite ease-in-out;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 48px;
+  animation: floatBeer linear infinite;
 }
 
-@keyframes floatBubble {
+@keyframes floatBeer {
   0% {
-    transform: translateY(0);
+    transform: translateX(-50%) translateY(0);
   }
   50% {
-    transform: translateY(-100px);
+    transform: translateX(-50%) translateY(10px);
   }
   100% {
-    transform: translateY(0);
+    transform: translateX(-50%) translateY(0);
   }
 }
+
