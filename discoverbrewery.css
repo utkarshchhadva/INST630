@@ -157,8 +157,11 @@ ul#breweriesList li a:hover {
   top: 0px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 38px;
-  animation: floatBeer linear infinite;
+  font-size: 48px;
+  animation-name: floatBeer;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes floatBeer {
@@ -172,4 +175,5 @@ ul#breweriesList li a:hover {
     transform: translateX(-50%) translateY(0);
   }
 }
+
 
