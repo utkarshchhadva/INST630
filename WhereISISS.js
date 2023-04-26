@@ -48,6 +48,23 @@ refreshButton.addEventListener('click', () => {
 getISS();
 initMap();
 
+const rocketContainer = document.querySelector('.rocket-container');
+
+function createRocket() {
+  const rocket = document.createElement('div');
+  rocket.className = 'rocket-emoji';
+  rocket.innerHTML = '&#x1F680;';
+  rocket.style.left = `${50 + Math.random() * 10 - 5}%`;
+  rocket.style.animationDuration = `${1 + Math.random() * 2}s`;
+  rocketContainer.appendChild(rocket);
+  setTimeout(() => {
+    rocket.remove();
+  }, 5000);
+}
+
+setInterval(() => {
+  createRocket();
+}, 2000);
 
 
 
