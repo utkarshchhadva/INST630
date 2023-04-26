@@ -145,5 +145,22 @@ height: 100%;
   }
 }
 
+.rocket-emoji:nth-child(2) {
+  animation-delay: 0.5s;
+}
+
+.rocket-emoji:nth-child(3) {
+  animation-delay: 1s;
+}
+
+.rocket-emoji:nth-child(4) {
+  animation-delay: 1.5s;
+}
+
+.rocket-emoji:nth-child(4) {
+  animation-delay: 2s;
+}
+
+
 
 
