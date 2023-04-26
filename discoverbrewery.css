@@ -152,13 +152,13 @@ ul#breweriesList li a:hover {
 
 .bubble {
   position: absolute;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  background-color: #00fffff; /* or any color you prefer */
-  opacity: 0.5;
+  background-color: #00bfff; /* or any color you prefer */
+  opacity: 0.7;
   animation: floatBubble 5s infinite ease-in-out;
-  pointer-events: none; 
+  pointer-events: auto; /* re-enable pointer events for bubbles so they can be clicked */
 }
 
 @keyframes floatBubble {
