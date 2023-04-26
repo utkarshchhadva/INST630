@@ -115,9 +115,22 @@ function highlightMarker(index) {
   map.setView([37.0902, -95.7129], 4);
   }
 
-var bubbleContainer = document.querySelector('.bubble-container');
+  const beerContainer = document.querySelector('.beer-container');
 
-var newBubble = document.createElement('div');
-newBubble.className = 'bubble';
-bubbleContainer.appendChild(newBubble);
+  function createBeer() {
+  const beer = document.createElement('div');
+  beer.className = 'beer-emoji';
+  beer.innerHTML = '&#x1F37A;';
+  beer.style.left = `${50 + Math.random() * 10 - 5}%`;
+  beer.style.animationDuration = `${1 + Math.random() * 2}s`;
+  beerContainer.appendChild(beer);
+  setTimeout(() => {
+    beer.remove();
+  }, 5000);
+}
+
+setInterval(() => {
+  createBeer();
+}, 2000);
+
 
