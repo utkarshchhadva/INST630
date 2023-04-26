@@ -154,10 +154,10 @@ ul#breweriesList li a:hover {
 
 .beer-emoji {
   position: absolute;
-  top: -20px;
+  top: -10px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 48px;
+  font-size: 38px;
   animation: floatBeer linear infinite;
 }
 
