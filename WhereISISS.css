@@ -130,7 +130,10 @@ height: 100%;
   left: 50%;
   transform: translateX(-50%);
   font-size: 48px;
-  animation: floatRocket linear infinite;
+  animation-name: floatRocket;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes floatRocket {
@@ -144,4 +147,5 @@ height: 100%;
     transform: translateX(-50%) translateY(0);
   }
 }
+
 
