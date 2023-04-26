@@ -121,7 +121,7 @@ height: 100%;
   height: 100%;
   overflow: hidden;
   pointer-events: none;
-  z-index: 9999;
+  z-index: -1;
 }
 
 .rocket-emoji {
@@ -131,18 +131,6 @@ height: 100%;
   transform: translateX(-50%);
   font-size: 38px;
   animation: floatRocket 2s linear infinite;
-}
-
-@keyframes floatRocket {
-  0% {
-    transform: translateX(-50%) translateY(0);
-  }
-  50% {
-    transform: translateX(-50%) translateY(10px);
-  }
-  100% {
-    transform: translateX(-50%) translateY(0);
-  }
 }
 
 .rocket-emoji:nth-child(2) {
@@ -160,6 +148,20 @@ height: 100%;
 .rocket-emoji:nth-child(4) {
   animation-delay: 2s;
 }
+
+@keyframes floatRocket {
+  0% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(10px);
+  }
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+
 
 
 
