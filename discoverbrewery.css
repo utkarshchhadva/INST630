@@ -154,7 +154,7 @@ ul#breweriesList li a:hover {
 
 .beer-emoji {
   position: absolute;
-  top: -50px;
+  top: -20px;
   left: 50%;
   transform: translateX(-50%);
   font-size: 48px;
