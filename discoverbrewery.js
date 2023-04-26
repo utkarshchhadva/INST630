@@ -115,4 +115,9 @@ function highlightMarker(index) {
   map.setView([37.0902, -95.7129], 4);
   }
 
+var bubbleContainer = document.querySelector('.bubble-container');
+
+var newBubble = document.createElement('div');
+newBubble.className = 'bubble';
+bubbleContainer.appendChild(newBubble);
 
