@@ -251,9 +251,9 @@ ul#breweriesList li a:hover {
 	left: -5%;
 	top: 5%;
 	
-	-webkit-transform: scale(0.6);
-	-moz-transform: scale(0.6);
-	transform: scale(0.6);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
 }
 
 .x2 {
@@ -264,9 +264,9 @@ ul#breweriesList li a:hover {
 	left: 5%;
 	top: 80%;
 	
-	-webkit-transform: scale(0.4);
-	-moz-transform: scale(0.4);
-	transform: scale(0.4);
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
 }
 
 .x3 {
@@ -277,9 +277,9 @@ ul#breweriesList li a:hover {
 	left: 10%;
 	top: 40%;
 	
-	-webkit-transform: scale(0.7);
-	-moz-transform: scale(0.7);
-	transform: scale(0.7);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
 }
 
 .x4 {
@@ -303,9 +303,9 @@ ul#breweriesList li a:hover {
 	left: 30%;
 	top: 50%;
 	
-	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
-	transform: scale(0.5);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
 }
 
 .x6 {
@@ -316,9 +316,9 @@ ul#breweriesList li a:hover {
 	left: 50%;
 	top: 0;
 	
-	-webkit-transform: scale(0.8);
-	-moz-transform: scale(0.8);
-	transform: scale(0.8);
+	-webkit-transform: scale(0.3);
+	-moz-transform: scale(0.3);
+	transform: scale(0.3);
 }
 
 .x7 {
@@ -329,9 +329,9 @@ ul#breweriesList li a:hover {
 	left: 65%;
 	top: 70%;
 	
-	-webkit-transform: scale(0.4);
-	-moz-transform: scale(0.4);
-	transform: scale(0.4);
+	-webkit-transform: scale(0.2);
+	-moz-transform: scale(0.2);
+	transform: scale(0.2);
 }
 
 /* OBJECTS */
