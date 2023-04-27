@@ -334,45 +334,6 @@ ul#breweriesList li a:hover {
 	transform: scale(0.4);
 }
 
-.x8 {
-    -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-	-moz-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-	animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-	
-	left: 80%;
-	top: 10%;
-	
-	-webkit-transform: scale(0.3);
-	-moz-transform: scale(0.3);
-	transform: scale(0.3);
-}
-
-.x9 {
-    -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-	-moz-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-	animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-	
-	left: 90%;
-	top: 50%;
-	
-	-webkit-transform: scale(0.6);
-	-moz-transform: scale(0.6);
-	transform: scale(0.6);
-}
-
-.x10 {
-    -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-	-moz-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-	animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-	
-	left: 80%;
-	top: 80%;
-	
-	-webkit-transform: scale(0.3);
-	-moz-transform: scale(0.3);
-	transform: scale(0.3);
-}
-
 /* OBJECTS */
 
 .bubble {
@@ -380,9 +341,9 @@ ul#breweriesList li a:hover {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	
-    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), inset 0px 10px 20px 5px rgba(255, 255, 255, 1);
+	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), inset 0px 10px 20px 5px rgba(255, 255, 255, 1);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), inset 0px 10px 20px 5px rgba(255, 255, 255, 1);
 	
     height: 200px;
 	position: absolute;
